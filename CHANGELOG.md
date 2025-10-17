@@ -26,6 +26,63 @@
 
 
 
+## [1.14.0](https://github.com/micmor/just_another_workout_timer/compare/v1.7.0...v1.14.0) (2025-10-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* workout file version 2 with order (closes #50) ([#81](https://github.com/micmor/just_another_workout_timer/issues/81))
+
+### Features
+
+* add russian language ([#73](https://github.com/micmor/just_another_workout_timer/issues/73)) ([f14d85e](https://github.com/micmor/just_another_workout_timer/commit/f14d85e5d5b0d3edc5cbef23bb699b730fc3e58c))
+* add turkish language ([a8256f7](https://github.com/micmor/just_another_workout_timer/commit/a8256f738129d6b66f1db335411320ba32d4ee72))
+* allow different TTS engine (fixes [#141](https://github.com/micmor/just_another_workout_timer/issues/141)) ([53f54d0](https://github.com/micmor/just_another_workout_timer/commit/53f54d01560f3ca54c3ccd7c9239a58232f2fe15))
+* allow sharing workouts (closes [#118](https://github.com/micmor/just_another_workout_timer/issues/118)) ([4cb9f9d](https://github.com/micmor/just_another_workout_timer/commit/4cb9f9d226a7c785147c3245758a039716a1943c))
+* change theme of icon and splash screen ([a414f37](https://github.com/micmor/just_another_workout_timer/commit/a414f37b91b9a8575f216fb4f67ec2b9b53cc863))
+* enter duration of exercises manually (closes [#79](https://github.com/micmor/just_another_workout_timer/issues/79)) ([d299493](https://github.com/micmor/just_another_workout_timer/commit/d299493326166adea547da0994380bc534ef6115))
+* importing and exporting of workouts (closes [#49](https://github.com/micmor/just_another_workout_timer/issues/49)) ([#74](https://github.com/micmor/just_another_workout_timer/issues/74)) ([80f8f6b](https://github.com/micmor/just_another_workout_timer/commit/80f8f6b0a286ad9c29bb2ee11046b6771e79eec2))
+* improve splash screen ([4fba97b](https://github.com/micmor/just_another_workout_timer/commit/4fba97b853463f7fdbb4ec8c2c1245352ac842c6))
+* improved theming ([03f5d14](https://github.com/micmor/just_another_workout_timer/commit/03f5d1431781adc944aca4f493457fbb8d5bdb37))
+* improvements to builder page (closes [#60](https://github.com/micmor/just_another_workout_timer/issues/60)) ([6fdecaf](https://github.com/micmor/just_another_workout_timer/commit/6fdecaf8d8e76b6d743ebe405597027d0d031506))
+* Material 3 and Material You ([4a90728](https://github.com/micmor/just_another_workout_timer/commit/4a90728348010fdbc991fb579a5478f3c8b10137))
+* merge language selections in settings ([d522cd0](https://github.com/micmor/just_another_workout_timer/commit/d522cd059e346858a52ba7130c73104f7b96a106))
+* option for extended set list in workouts (closes [#68](https://github.com/micmor/just_another_workout_timer/issues/68)) ([09cb1b9](https://github.com/micmor/just_another_workout_timer/commit/09cb1b9784d9c4b941b2d244c4c08cfc8563b12f))
+* select voice for TTS (closes [#98](https://github.com/micmor/just_another_workout_timer/issues/98)) ([8f87f96](https://github.com/micmor/just_another_workout_timer/commit/8f87f968e36c552ec9e3da0944de2cbf0121cd45))
+* show next exercise in header (closes [#46](https://github.com/micmor/just_another_workout_timer/issues/46)) ([1083cab](https://github.com/micmor/just_another_workout_timer/commit/1083cabf9029738c5dcb92cb8ee01cbffe582b82))
+* small redesign to builder page ([6ae6f99](https://github.com/micmor/just_another_workout_timer/commit/6ae6f9991393f8951f4139f6002bb506a7465c60))
+* triple tone at the end of a set (closes [#55](https://github.com/micmor/just_another_workout_timer/issues/55)) ([a4e4f4a](https://github.com/micmor/just_another_workout_timer/commit/a4e4f4ab95c0eceea57ab0c222c38f8563c8c4f6))
+* upgrade to Flutter 2 ([d819326](https://github.com/micmor/just_another_workout_timer/commit/d819326bd351319b93ed59b259bada1643a25489))
+* use Material3 ([6ef7858](https://github.com/micmor/just_another_workout_timer/commit/6ef7858c93de57af785860a6d853619f0ae57853))
+* use nord theme ([998f625](https://github.com/micmor/just_another_workout_timer/commit/998f625e12067fc3b29bf2e2606b5dccc252a076))
+* workout file version 2 with order (closes [#50](https://github.com/micmor/just_another_workout_timer/issues/50)) ([#81](https://github.com/micmor/just_another_workout_timer/issues/81)) ([d28b087](https://github.com/micmor/just_another_workout_timer/commit/d28b0872af10d603e795f14ccf82eb22a0d7a1e6))
+
+
+### Bug Fixes
+
+* add permission for TTS (fixes [#62](https://github.com/micmor/just_another_workout_timer/issues/62)) ([0a17581](https://github.com/micmor/just_another_workout_timer/commit/0a175813422a314ac6e30db73dc3d0d37dc9d28c))
+* add uuid to sets and exercises to prevent key duplication ([a437d8a](https://github.com/micmor/just_another_workout_timer/commit/a437d8a089d2455a8984cfdd3f29a969127c6456))
+* avoid negative time on exercise ([#106](https://github.com/micmor/just_another_workout_timer/issues/106)) ([0cefe4f](https://github.com/micmor/just_another_workout_timer/commit/0cefe4f9de797cf7f2678c4e4ccee53b3efd080e))
+* crash when loading TTS (fixes [#108](https://github.com/micmor/just_another_workout_timer/issues/108)) ([1cdd6b5](https://github.com/micmor/just_another_workout_timer/commit/1cdd6b57e68963043de2feb8a5eeddd00cc22615))
+* create backup before migrations ([42c683d](https://github.com/micmor/just_another_workout_timer/commit/42c683d0e82c0c072e05c20d5853b4d3902281f0))
+* default language selection ([70d2d16](https://github.com/micmor/just_another_workout_timer/commit/70d2d1677be37be66f3c0a637dc5b198fce460aa))
+* fix crash with no TTS service installed (fixes [#108](https://github.com/micmor/just_another_workout_timer/issues/108)) ([b087fb5](https://github.com/micmor/just_another_workout_timer/commit/b087fb54b606168e4ca2d409ae675f871e44bbbf))
+* fix editing of duplicated sets/exercises (fixes [#96](https://github.com/micmor/just_another_workout_timer/issues/96)) ([da21d1e](https://github.com/micmor/just_another_workout_timer/commit/da21d1e0e5a721eb7f15b0c555544cc06b03393f))
+* Fix loading of backup files with malformed utf8 encoding ([#114](https://github.com/micmor/just_another_workout_timer/issues/114)) ([e80c23d](https://github.com/micmor/just_another_workout_timer/commit/e80c23d0ceca27948f48b8d309e9505bb854a991))
+* fix sort order on home screen (fixes [#67](https://github.com/micmor/just_another_workout_timer/issues/67)) ([10a8243](https://github.com/micmor/just_another_workout_timer/commit/10a82437b5b03c37c7dd8c3661828b8f9647b92f))
+* IT translation update ([#113](https://github.com/micmor/just_another_workout_timer/issues/113)) ([12c4757](https://github.com/micmor/just_another_workout_timer/commit/12c4757ba8767a5ed239bd0373f6e7432f477207))
+* set first TTS voice when changing language ([0190bb4](https://github.com/micmor/just_another_workout_timer/commit/0190bb42c17646c06a3d01896150273826f94407))
+* stop TTS if already playing (fixes [#64](https://github.com/micmor/just_another_workout_timer/issues/64)) ([c1eeba5](https://github.com/micmor/just_another_workout_timer/commit/c1eeba5e691bf7cf8cd6af17cff6b3dfab1cbb37))
+* update license page ([3a4ba7c](https://github.com/micmor/just_another_workout_timer/commit/3a4ba7c6963e24756033d9a23ed39c490e44fd81))
+* update translations ([d868bee](https://github.com/micmor/just_another_workout_timer/commit/d868beed8f7ac666b37a79d6244932577501dd2f))
+* update translations ([#121](https://github.com/micmor/just_another_workout_timer/issues/121)) ([ba8ec6c](https://github.com/micmor/just_another_workout_timer/commit/ba8ec6c3bb4e56cd2943245ed1526a7ecec659f4))
+
+
+### Miscellaneous Chores
+
+* release 1.13.0 ([715049c](https://github.com/micmor/just_another_workout_timer/commit/715049c4e390b9dfb1c7f1a92d7f8e439d16c276))
+* release 1.14.0 ([02c292b](https://github.com/micmor/just_another_workout_timer/commit/02c292b1a4703a21884cddb5605c146e0e583fa5))
+
 ## [1.11.2](https://github.com/blockbasti/just_another_workout_timer/compare/v1.11.1...v1.11.2) (2022-03-17)
 
 
@@ -308,6 +365,3 @@
 
 
 # 1.0.0 (2021-01-20)
-
-
-
